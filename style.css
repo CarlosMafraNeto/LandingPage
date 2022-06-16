@@ -71,7 +71,7 @@ justify-content: space-between;
   font-size: 48px;
   margin-bottom: 10px;
 }
-.texto-apresentacao a{
+.btn{
   background-color: #122a57;
   color: #fff;
   text-align: center;
@@ -132,7 +132,7 @@ div img{
 
 .list-servicos{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .item-servico{
@@ -153,4 +153,103 @@ div img{
   height: 50px;
   text-align: center;
   line-height: 50px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.item-servico p{
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+
+}
+
+.item-servico img{
+  width: 80%;
+  margin: auto;
+}
+
+#planos{
+flex-direction: column;
+min-height: 100vh;
+
+}
+
+.list-planos{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.item-planos{
+  flex: 1;
+  border: 3px solid #122a57;
+  margin-right: 6px;
+  padding: 10px;
+  max-width: 240px;
+
+}
+
+.item-planos .btn{
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.item-planos h3{
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.item-planos h3::after{
+  content: "";
+  background-color: #122a57;
+  width: 100%;
+  height: 3px;
+  margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.planos-lista{
+  list-style-type: disc;
+}
+footer{
+  justify-content: space-between;
+  background-color: #122a57;
+  height: 100px;
+  display:flex;
+  align-items: center;
+  color: #fff;
+}
+
+.item-planos h3{
+  align-items: center;
+}
+
+.list-planos ul{
+  list-style-type: square;
+  margin-left: 8px;
+  margin-bottom: 9px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-planos ul li{
+  display:flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+
+.item-planos ul li::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #122a57;
+  margin-right: 20px;
+
 }
